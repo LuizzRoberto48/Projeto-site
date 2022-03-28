@@ -1,0 +1,67 @@
+.header {
+  overflow: hidden;
+  background-color: #b9b9b9;
+  padding: 10px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-left{
+  float: left
+
+}
+
+/**/
+
+a:hover {
+  color: rgb(255, 136, 0);
+
+}
+
+body{
+  margin:0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(90deg, red blue purple);
+  
+}
+
+h1 {
+  font-size: 30px;
+  color:white;
+
+}
+
+h2 {
+  font-size: 30px;
+
+}
+
+table, th, td, th{
+border:1px solid rgb(129, 129, 129)
+
+}
