@@ -9,6 +9,8 @@
 }
 
 body {
+  font-family: 'AvenirLight';
+  color: white;
   min-height: 100vh;
   background-color: #121111;
   margin: 0;
@@ -34,13 +36,19 @@ h2 {
 
 }
 
-p {
-  font-family: 'AvenirLight';
-  color: white;
-}
-
 ol {
   list-style: none;
+}
+
+form {
+  border: 5px solid #222121;
+  background-color: #121111;
+  font-size: 100%;
+  padding: 20px;
+  margin: 0px auto;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
 }
 
 a:link {
@@ -176,14 +184,12 @@ header .wrapper {
 
 .box {
   padding: 80px 60px;
-  color: #c4a878;
 }
 
 .box-2 {
   padding: 80px 60px;
   border-top: #222121 10px solid;
   text-align: center;
-  color: #c4a878
 }
 
 .box-3 {
@@ -205,8 +211,7 @@ header .wrapper {
 
 .box-6 {
   border-top: #222121 10px solid;
-  border-bottom: #222121 10px solid;
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -218,6 +223,11 @@ header .wrapper {
 .produtos {
   font-family: 'PlayfairDisplay';
   font-size: 35px;
+}
+
+.produtos-pequeno {
+  font-family: 'PlayfairDisplay';
+  font-size: 25px;
 }
 
 .description {
