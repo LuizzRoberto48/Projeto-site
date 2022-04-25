@@ -9,6 +9,7 @@
 }
 
 body {
+  min-height: 100vh;
   background-color: #121111;
   margin: 0;
 }
@@ -67,6 +68,20 @@ header .wrapper {
   align-items: center;
 }
 
+.box-5 .wrapper {
+  padding: 15px 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-6 .wrapper {
+  padding: 150px 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-nav {
   font-family: 'AvenirLight';
   font-size: 20px;
@@ -93,12 +108,39 @@ header .wrapper {
   color: #c4a878;
 }
 
+.contrast-right {
+  padding: 10px 400px;
+  text-align: right;
+  font-family: "PlayfairDisplay";
+  font-size: 40px;
+  color: #c4a878;
+}
+
 .intro {
   font-family: "PlayfairDisplay";
   font-size: 60px;
   color: white;
   font-weight: bold;
   text-align: center;
+}
+
+.intro-space {
+  margin-right: 80px;
+  font-family: "PlayfairDisplay";
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.intro-left {
+  padding: 10px 400px;
+  font-family: "PlayfairDisplay";
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
 }
 
 .home-content {
@@ -108,7 +150,23 @@ header .wrapper {
   background-position: center;
 }
 
+.location-content {
+  padding: 340px 70px;
+  background-image: url(../Imagens/location.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-content {
+  padding: 340px 70px;
+  background-image: url(../Imagens/Bebidas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .footer {
+  position: sticky;
+  top: 100%;
   background-color: #222121;
   text-align: center;
   padding: 30px;
@@ -132,6 +190,28 @@ header .wrapper {
   padding: 80px 60px;
   border-top: #222121 10px solid;
   color: #c4a878
+}
+
+.box-4 {
+  padding: 20px 60px;
+  text-align: center;
+}
+
+.box-5 {
+  border-top: #222121 10px solid;
+  border-bottom: #222121 10px solid;
+  margin: 160px 110px;
+}
+
+.box-6 {
+  border-top: #222121 10px solid;
+  border-bottom: #222121 10px solid;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.box-7 {
+  margin-left: 600px;
 }
 
 
