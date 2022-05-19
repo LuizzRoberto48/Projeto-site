@@ -13,11 +13,17 @@ body {
   color: white;
   min-height: 100vh;
   background-color: #121111;
-  margin: 0;
+  margin: 0px;
 }
 
 header {
-  padding: 1px 250px;
+  padding: 0px 250px;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
@@ -34,10 +40,6 @@ h1 {
 h2 {
   font-size: 30px;
 
-}
-
-ol {
-  list-style: none;
 }
 
 form {
@@ -64,30 +66,14 @@ a:hover {
   color: #c4a878;
 }
 
-header .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.box .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.box-5 .wrapper {
-  padding: 15px 37px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.box-6 .wrapper {
-  padding: 150px 370px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+footer {
+  position: sticky;
+  top: 100%;
+  background-color: #222121;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  font-size: 15px;
 }
 
 .main-nav {
@@ -101,13 +87,6 @@ header .wrapper {
   display: inline;
   display: inline-block;
   padding: .5em .5em;
-}
-
-.presentation {
-  font-family: "PlayfairDisplay";
-  font-size: 45px;
-  color: #c4a878;
-  margin: 0px;
 }
 
 .contrast {
@@ -124,7 +103,7 @@ header .wrapper {
   color: #c4a878;
 }
 
-.intro {
+.destaque {
   font-family: "PlayfairDisplay";
   font-size: 60px;
   color: white;
@@ -132,7 +111,7 @@ header .wrapper {
   text-align: center;
 }
 
-.intro-space {
+.destaque-space {
   margin-right: 80px;
   font-family: "PlayfairDisplay";
   font-size: 60px;
@@ -141,8 +120,7 @@ header .wrapper {
   text-align: center;
 }
 
-
-.intro-left {
+.destaque-left {
   padding: 10px 400px;
   font-family: "PlayfairDisplay";
   font-size: 60px;
@@ -172,36 +150,75 @@ header .wrapper {
   background-position: center;
 }
 
-.footer {
-  position: sticky;
-  top: 100%;
-  background-color: #222121;
-  text-align: center;
-  padding: 30px;
-  margin: 0px;
-  font-size: 15px;
-}
+/*CATÁLOGO*/
 
-.box {
+.catalogo-1 {
   padding: 80px 60px;
+  color: #c4a878
 }
 
-.box-2 {
-  padding: 80px 60px;
-  border-top: #222121 10px solid;
-  text-align: center;
-}
-
-.box-3 {
+.catalogo-2 {
   padding: 80px 60px;
   border-top: #222121 10px solid;
   color: #c4a878
 }
 
-.box-4 {
+/*CATÁLOGO*/
+
+/*INDEX*/
+
+.index-1 {
+  padding: 80px 60px;
+}
+
+.index-1 .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index-2 {
+  padding: 80px 60px;
+  border-top: #222121 10px solid;
+  text-align: center;
+}
+
+.presentation {
+  font-family: "PlayfairDisplay";
+  font-size: 45px;
+  color: #c4a878;
+  margin: 0px;
+}
+
+/*INDEX*/
+
+/*CONTATO*/
+
+.contato-1 {
+  border-top: #222121 10px solid;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contato-1 .wrapper {
+  padding: 150px 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*CONTATO*/
+
+/*LOCALIZAÇÃO*/
+
+.localizacao-1 {
   padding: 20px 60px;
   text-align: center;
 }
+
+/*LOCALIZAÇÃO*/
+
+/*CATÁLOGO*/
 
 .box-5 {
   border-top: #222121 10px solid;
@@ -209,16 +226,16 @@ header .wrapper {
   margin: 160px 110px;
 }
 
-.box-6 {
-  border-top: #222121 10px solid;
-  font-size: 20px;
-  color: #ffffff;
+.box-5 .wrapper {
+  padding: 15px 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .box-7 {
   margin-left: 600px;
 }
-
 
 .produtos {
   font-family: 'PlayfairDisplay';
@@ -234,3 +251,5 @@ header .wrapper {
   font-size: 17px;
 
 }
+
+/*CATÁLOGO*/
